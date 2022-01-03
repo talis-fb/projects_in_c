@@ -13,6 +13,10 @@ int main(int argc, char* argv[]){
 
     printf("%d %d", eu.classe, eu.raca );
 
+    SetaPV(&eu);
+    SetaProficiencias(&eu);
+    SetaAprimoramentosAtbs(&eu);
+
     return 0;
 }
 

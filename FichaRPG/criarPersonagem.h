@@ -6,8 +6,10 @@
 
 #include "InterfaceRPG.h"
 
-
-int SetaRaca(Personagem *p);
-int SetaClasse(Personagem *p);
+void SetaRaca(Personagem *p);
+void SetaPV(Personagem *p);
+void SetaProficiencias(Personagem *p);
+void SetaAprimoramentosAtbs(Personagem *p);
+void SetaClasse(Personagem *p);
 
 #endif
