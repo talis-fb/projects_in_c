@@ -7,7 +7,7 @@
 #include "InterfaceRPG.h"
 
 
-int SetaRaca(Personagem *p, Racas r){}
-int SetaClasse(Personagem *p, Classes c){}
+int SetaRaca(Personagem *p);
+int SetaClasse(Personagem *p);
 
 #endif

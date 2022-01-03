@@ -5,13 +5,13 @@
 #include "InterfaceRPG.h"
 #include "criarPersonagem.h"
 
-int main(){
-    Personagem *eu = malloc(sizeof(Personagem));
+int main(int argc, char* argv[]){
+    Personagem eu;
 
-    SetaRaca(eu, Humano);
-    SetaClasse(eu, Mago);
+    SetaRaca(&eu);
+    SetaClasse(&eu);
 
-    printf("%d %d", eu->classe, eu->raca );
+    printf("%d %d", eu.classe, eu.raca );
 
     return 0;
 }
